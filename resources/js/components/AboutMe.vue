@@ -18,6 +18,10 @@
                         Designing has been my passion since the days I started using computers. The passion of learning new things has been my way to study web developing.
                         The gain knowledge motivates me to push my limits in creating fair designed, intuitive and functional websites.  </p>
                 </div>
+                <div class="skills-text">
+                    <h4 class="job-skills"> My Skills </h4>
+                    <p> Proficiency in HTML, CSS3, JavaScript, PHP, Laravel, Vue.js and Github. </p>
+                </div>
             </div>
             <div class="btn-wrap">
                 <a href="file/resume.pdf" class="btn btn-sm btn-primary"> Download CV </a>
@@ -135,6 +139,12 @@ img {
 }
 
 .profile-text .job-title {
+    color: red;
+    font-size: 28px;
+    font-weight: 300 !important;
+}
+
+.job-skills {
     color: red;
     font-size: 28px;
     font-weight: 300 !important;

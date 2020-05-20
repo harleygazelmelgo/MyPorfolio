@@ -1,10 +1,10 @@
 <template>
     <body class="body-content">
-            <img src="images/bg9.jpg" alt="laptop" style="width:100vw; height: 100vh;">
-                <div class="body-text" style="text-align: center;">
+        <img src="images/bg9.jpg" alt="laptop" style="width:100vw; height: 100vh;">
 
-                    <h2>"Design is not just how it looks, design is how it works"</h2>
-                </div>
+            <div class="body-text" style="text-align: center;">
+                <h2>"Design is not just how it looks, design is how it works"</h2>
+            </div>
 
 
     </body>
@@ -32,7 +32,6 @@ export default {
     left: 20%;
     right: 20%;
     z-index: 1;
-
 
 }
 

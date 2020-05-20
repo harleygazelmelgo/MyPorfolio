@@ -1938,6 +1938,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'AboutMe'
 });
@@ -6866,7 +6870,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-0b471cea] {\n    background-color: #8FC0A9;\n}\n*[data-v-0b471cea] {\n    box-sizing: border-box;\n}\n.body-content[data-v-0b471cea] {\n    min-height: 80vh;\n}\n.container[data-v-0b471cea] {\n\n    padding-right: 15px;\n    padding-left: 15px;\n    margin-right: auto;\n    margin-left: auto;\n}\n.row[data-v-0b471cea] {\n    display: block;\n    margin-right: -15px;\n    margin-left: -15px;\n}\n.center[data-v-0b471cea] {\n    text-align: center;\n}\n.col-md-4[data-v-0b471cea], .col-sm-4[data-v-0b471cea], .col-md-8[data-v-0b471cea], .col-sm-8[data-v-0b471cea] {\n    position: relative;\n    min-height: 1px;\n    padding-right: 15px;\n    padding-left: 15px;\n}\n.profile .profile-pic[data-v-0b471cea] {\n\n    height: 220px;\n    width: 220px;\n    max-width: 220px;\n}\n.profile-pic[data-v-0b471cea] {\n    margin-top: 25px;\n    border-radius: 50%;\n    display: inline-block;\n    margin-bottom: 10px;\n    overflow: hidden;\n    transform: translateZ(0);\n    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);\n}\n.profile-pic img[data-v-0b471cea]:hover {\n    -webkit-filter: grayscale(0%);\n            filter: grayscale(0%)\n}\n.profile-pic img[data-v-0b471cea] {\n    max-width: 50%;\n    transform-style: all 0.5s ease;\n}\nimg[data-v-0b471cea] {\n    vertical-align: middle;\n    border: 0;\n}\n#socialImg[data-v-0b471cea] {\n    width: 30px;\n    height: 30px;\n}\n.social-circle[data-v-0b471cea] {\n\n    margin-bottom: 30px;\n}\n.social-circle a[data-v-0b471cea] {\n    border: 2px solid #999999;\n    color: #999999;\n    display: inline-block;\n    font-size: 24px;\n    height: 52px;\n    line-height: 48px;\n    margin: 0 5px 5px;\n    width: 52px;\n}\n.profile-text .job-title[data-v-0b471cea] {\n    color: red;\n    font-size: 28px;\n    font-weight: 300 !important;\n}\n.profile-text p[data-v-0b471cea] {\n    line-height: 26px;\n    margin: 0 0 10px;\n}\n.btn-sm[data-v-0b471cea] {\n    padding: 15px 30px;\n}\n.btn-primary[data-v-0b471cea] {\n    background-color: crimson;\n    border-color: crimson;\n    color: #ffffff;\n}\n.btn[data-v-0b471cea] {\n    text-transform: uppercase;\n    margin-left: 120px;\n    margin-top: 30px;\n    margin-bottom: 15px;\n}\n\n", ""]);
+exports.push([module.i, "\nbody[data-v-0b471cea] {\n    background-color: #8FC0A9;\n}\n*[data-v-0b471cea] {\n    box-sizing: border-box;\n}\n.body-content[data-v-0b471cea] {\n    min-height: 80vh;\n}\n.container[data-v-0b471cea] {\n\n    padding-right: 15px;\n    padding-left: 15px;\n    margin-right: auto;\n    margin-left: auto;\n}\n.row[data-v-0b471cea] {\n    display: block;\n    margin-right: -15px;\n    margin-left: -15px;\n}\n.center[data-v-0b471cea] {\n    text-align: center;\n}\n.col-md-4[data-v-0b471cea], .col-sm-4[data-v-0b471cea], .col-md-8[data-v-0b471cea], .col-sm-8[data-v-0b471cea] {\n    position: relative;\n    min-height: 1px;\n    padding-right: 15px;\n    padding-left: 15px;\n}\n.profile .profile-pic[data-v-0b471cea] {\n\n    height: 220px;\n    width: 220px;\n    max-width: 220px;\n}\n.profile-pic[data-v-0b471cea] {\n    margin-top: 25px;\n    border-radius: 50%;\n    display: inline-block;\n    margin-bottom: 10px;\n    overflow: hidden;\n    transform: translateZ(0);\n    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);\n}\n.profile-pic img[data-v-0b471cea]:hover {\n    -webkit-filter: grayscale(0%);\n            filter: grayscale(0%)\n}\n.profile-pic img[data-v-0b471cea] {\n    max-width: 50%;\n    transform-style: all 0.5s ease;\n}\nimg[data-v-0b471cea] {\n    vertical-align: middle;\n    border: 0;\n}\n#socialImg[data-v-0b471cea] {\n    width: 30px;\n    height: 30px;\n}\n.social-circle[data-v-0b471cea] {\n\n    margin-bottom: 30px;\n}\n.social-circle a[data-v-0b471cea] {\n    border: 2px solid #999999;\n    color: #999999;\n    display: inline-block;\n    font-size: 24px;\n    height: 52px;\n    line-height: 48px;\n    margin: 0 5px 5px;\n    width: 52px;\n}\n.profile-text .job-title[data-v-0b471cea] {\n    color: red;\n    font-size: 28px;\n    font-weight: 300 !important;\n}\n.job-skills[data-v-0b471cea] {\n    color: red;\n    font-size: 28px;\n    font-weight: 300 !important;\n}\n.profile-text p[data-v-0b471cea] {\n    line-height: 26px;\n    margin: 0 0 10px;\n}\n.btn-sm[data-v-0b471cea] {\n    padding: 15px 30px;\n}\n.btn-primary[data-v-0b471cea] {\n    background-color: crimson;\n    border-color: crimson;\n    color: #ffffff;\n}\n.btn[data-v-0b471cea] {\n    text-transform: uppercase;\n    margin-left: 120px;\n    margin-top: 30px;\n    margin-bottom: 15px;\n}\n\n", ""]);
 
 // exports
 
@@ -38964,6 +38968,16 @@ var staticRenderFns = [
               _c("p", [
                 _vm._v(
                   " Hello! I am Harley Melgo, a Junior Web Developer.\n                        Designing has been my passion since the days I started using computers. The passion of learning new things has been my way to study web developing.\n                        The gain knowledge motivates me to push my limits in creating fair designed, intuitive and functional websites.  "
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "skills-text" }, [
+              _c("h4", { staticClass: "job-skills" }, [_vm._v(" My Skills ")]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  " Proficiency in HTML, CSS3, JavaScript, PHP, Laravel, Vue.js and Github. "
                 )
               ])
             ])
