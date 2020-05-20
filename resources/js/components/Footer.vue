@@ -18,7 +18,7 @@ export default {
 
 .footer {
     display: block;
-    background-color: #F8F9FA;
+    background-color: #343A40;
     width: 100%;
     box-sizing: border-box;
     padding: 1.25rem;
@@ -26,6 +26,7 @@ export default {
     color: black;
     font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     text-align: center;
-    font-size: 0.85rem;
+    font-size: 13px;
+
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
-    <div class="block" id="contact-page">
+    <div class="block body-content" id="contact-page">
         <h2 id="contact-header">Get in touch</h2>
-		<p class="form-msg">Thank you for taking the time to look at my portfolio, if you have any questions or would like to contact me, my information can be found below.</p>
+		<p class="form-msg">Thanks for dropping by to check my portfolio, if you have any questions/inquiries or would like to contact me, see below my information.</p>
 
-        <form id="contact" name="contact" method="post" action="/contact" enctype="multipart/form-data">
+        <form id="contact" name="contact" method="post" action="mail.php" enctype="multipart/form-data">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <div class="form-group">
@@ -32,25 +32,27 @@
 
             <div class="form-group">
                 <section id="subber">
-                    <button type="submit" name="submitlink" id="submitlink" class="btn btn-lg btn-block btn-flat btn-primary">Send <i class="fa fa-paper-plane"></i></button>
+                    <button type="submit" name="submitlink" id="submitlink" class="btn btn-md btn-primary">Send</button>
                 </section>
             </div>
         </form>
         <br>
         <br>
 
-        <div>
+        <div class="contact-container">
             <ul class="contact">
                 <li>
-                    <span class="icon major fa-envelope"></span>
-                    <h3>Email</h3>
+                    <img src="images/mail.png" />
+                    <h5>Email</h5>
                     <span>harleygfmelgo.com</span>
                 </li>
+                <br>
                 <li>
-                    <h3>Social Media</h3>
+                    <h5>Social Media</h5>
                     <ul class="icons">
-                        <li><a href="https://github.com/harleygazelmelgo" class="fa-github"><span class="label">GitHub</span></a></li>
-                        <li><a href="https://www.linkedin.com/in/hgmelgo31/" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a class="view-github" href="https://github.com/harleygazelmelgo" > <img src="images/git.png" /></a></li>
+                        <br>
+                        <li><a class="view-linkedin" href="https://www.linkedin.com/in/hgmelgo31/"> <img src="images/linkedin.png" /></a></li>
 
                     </ul>
                 </li>
@@ -71,13 +73,29 @@ export default {
 
 <style scoped>
 
-#contact-page {
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10;
-    margin-bottom: 10px;
+.body-content {
+    min-height: 80vh;
+
 }
 
 
+
+#contact-page {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.row {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 </style>
